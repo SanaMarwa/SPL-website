@@ -293,7 +293,7 @@ nav {
 
 @media screen and (max-width: 768px) {
   .background {
-    background-image: url(/svgs/book-idea-mobile.svg);
+    background-image: url(svgs/book-idea-mobile.svg);
     background-repeat: no-repeat;
     background-size: 84vh;
     background-position: center;
