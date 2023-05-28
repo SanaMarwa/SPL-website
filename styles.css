@@ -637,6 +637,7 @@ footer {
   align-self: flex-start;
 }
 .logoimg {
+  height: 200px;
   border-radius: 50%;
 }
 /* .logo {
