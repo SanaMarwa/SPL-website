@@ -51,11 +51,10 @@ h2 {
   letter-spacing: 1.75px;
   color: var(--orange);
   /* margin: 1rem; */
-  background: white;
-  width: max-content;
   align-self: center;
   padding: 1rem 1.5rem;
   border-radius: 20px;
+  background-color: white;
 }
 @media screen and (max-width: 768px) {
   h2 {
@@ -170,7 +169,11 @@ nav {
     right: 0px;
     height: 100vh;
     top: 0;
-    background: linear-gradient(to bottom left, #fed74f, #3decff);
+    background: linear-gradient(
+      to bottom right,
+      var(--navyblue),
+      var(--purple)
+    );
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -454,6 +457,7 @@ nav {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  max-width: 400px;
   /* height: fit-content; */
 }
 .course-grid .box:hover {
@@ -745,14 +749,19 @@ input {
   }
 }
 .slideshow-container {
-  max-width: 350px;
+  /* max-width: 350px; */
   position: relative;
   margin: auto;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .mySlides {
   display: none;
+}
+.mySlides img {
+  max-width: 700px;
+  width: 100%;
+  min-height: auto;
 }
 
 img {
@@ -849,5 +858,97 @@ img {
   .prevrev,
   .nextrev {
     margin: 0;
+  }
+}
+/* -------------ABOUT US PAGE------------ */
+#Method,
+#Motivation,
+#Envi-info {
+  background: white;
+  padding: 4rem;
+  margin: 10rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+#Method h2,
+#Motivation h2,
+#Envi-info h2 {
+  padding: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+#Method img,
+#Motivation img {
+  height: 200px;
+}
+#Method .right-img,
+#Motivation .right-img,
+#Envi-info .right-img {
+  padding-right: 6vw;
+  padding-left: 6vw;
+}
+#Method .sub-heading,
+#Motivation .sub-heading,
+#Envi-info .sub-heading {
+  font-weight: 700;
+}
+#Method .left-img,
+#Motivation .left-img,
+#Envi-info .left-img {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.title p,
+.conclusion p {
+  font-weight: 600;
+  max-width: fit-content;
+  padding-top: 2rem;
+  color: var(--purple);
+}
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#Envi-info {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+#Envi-info img {
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  #Method,
+  #Motivation,
+  #Envi-info {
+    margin: 2rem;
+  }
+  #Method .container,
+  #Motivation .container {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  #Method .reverse,
+  #Motivation .reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 426px) {
+  #Method,
+  #Motivation,
+  #Envi-info {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  #Envi-info .container {
+    gap: 1rem;
+    flex-direction: column;
   }
 }
