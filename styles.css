@@ -648,7 +648,7 @@ footer {
   font-size: 16px;
 }
 .row {
-  width: 85%;
+  width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -718,6 +718,14 @@ footer {
   }
   #features {
     padding: 3rem 0.5rem;
+  }
+  .col {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .col {
+    flex-basis: 85%;
   }
 }
 
