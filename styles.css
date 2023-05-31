@@ -37,6 +37,7 @@ main {
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
+  /* background: linear-gradient(to bottom right, hsl(216 73% 96% / 1),var(--navyblue)); */
 }
 @media screen and (max-width: 355px) {
   main {
@@ -295,7 +296,18 @@ nav {
 .display-m {
   display: none;
 }
-
+.background {
+  background-image: url(svgs/book-idea-full.svg);
+  background-repeat: no-repeat;
+  background-size: 276vh;
+  background-position: top;
+  background-position-y: 3vh;
+  height: 107vh;
+  width: 100vw;
+  position: absolute;
+  top: -1vh;
+  z-index: 0;
+}
 @media screen and (max-width: 768px) {
   .background {
     background-image: url(svgs/book-idea-mobile.svg);
@@ -537,6 +549,7 @@ nav {
     padding: 1rem;
     font-size: 1rem;
     top: 38%;
+    margin-left: 0;
   }
 }
 /*
@@ -829,6 +842,7 @@ img {
   border-radius: 20px;
   box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.4);
   padding: 3rem 0rem;
+  margin-top: 1rem;
 }
 .prevrev,
 .nextrev {
