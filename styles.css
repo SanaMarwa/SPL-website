@@ -33,7 +33,10 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
-
+  /* background-image: url(photos/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: center; */
   background: linear-gradient(
     to bottom right,
     hsl(216 73% 96% / 1),
@@ -466,6 +469,7 @@ nav {
   padding: 1rem;
   color: var(--lightpurple);
   font-weight: 300;
+  padding-right: 0;
 }
 .subheading {
   font-weight: 700;
@@ -552,13 +556,12 @@ nav {
   .whytextbox {
     padding: 1rem;
     padding-top: 5rem;
-    padding-right: 0;
+    /* padding-right: 0; */
   }
   .altbtn {
     padding: 1rem;
     font-size: 1rem;
     top: 38%;
-    margin-left: 0;
   }
 }
 /*
@@ -599,7 +602,7 @@ nav {
 }
 .ficon {
   align-self: center;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
 }
 .ficon img {
   height: 80px;
