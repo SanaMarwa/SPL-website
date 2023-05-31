@@ -289,7 +289,7 @@ nav {
 }
 .hero .btn {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 50%;
 }
 .display-m {
@@ -366,7 +366,8 @@ nav {
   border-radius: 1rem;
 }
 
-.btn:hover {
+.btn:hover,
+.altbtn:hover {
   background: #1f2937;
   color: #fff;
   cursor: pointer;
@@ -510,6 +511,7 @@ nav {
   align-self: center;
   color: var(--navyblue);
   margin: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 @media screen and (max-width: 768px) {
   .imgbox {
@@ -604,7 +606,7 @@ nav {
 #program-info,
 #environment,
 #admission-form {
-  min-height: 90vh;
+  /* min-height: 90vh; */
   position: relative;
   padding: 3rem 6rem 3rem 6rem;
   align-items: center;
