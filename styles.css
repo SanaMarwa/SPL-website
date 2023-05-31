@@ -33,10 +33,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
-  /* background-image: url(photos/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-y: center; */
+
   background: linear-gradient(
     to bottom right,
     hsl(216 73% 96% / 1),
