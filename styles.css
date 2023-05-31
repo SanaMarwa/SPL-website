@@ -386,6 +386,9 @@ nav {
   height: 20vw;
   min-height: 250px;
 }
+#about h2 {
+  margin: 0;
+}
 @media screen and (max-width: 768px) {
   #about .container-c {
     flex-direction: column;
@@ -497,7 +500,7 @@ nav {
 }
 #why .container-c {
   align-items: normal;
-  gap: 3rem;
+  gap: 2rem;
 }
 .altbtn {
   padding: 1rem 1.5rem;
@@ -698,7 +701,7 @@ footer {
   #why,
   #environment,
   #admission-form {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 1rem 1rem;
   }
   #features {
     padding: 3rem 0.5rem;
@@ -756,7 +759,7 @@ input {
   /* max-width: 350px; */
   position: relative;
   margin: auto;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .mySlides {
