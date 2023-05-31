@@ -33,11 +33,15 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
-  background-image: url(photos/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  /* background-image: url(photos/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
   background-attachment: fixed;
   background-size: cover;
-  background-position-y: center;
-  /* background: linear-gradient(to bottom right, hsl(216 73% 96% / 1),var(--navyblue)); */
+  background-position-y: center; */
+  background: linear-gradient(
+    to bottom right,
+    hsl(216 73% 96% / 1),
+    var(--navyblue)
+  );
 }
 @media screen and (max-width: 355px) {
   main {
@@ -248,7 +252,11 @@ nav {
   gap: 0.5rem;
 }
 .hero {
-  height: 117vh;
+  background-image: url(photos/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: center;
+  height: 82vh;
   display: flex;
   justify-content: center;
   /* text-align: center; */
@@ -323,7 +331,7 @@ nav {
   }
   .hero {
     padding: 1rem;
-    height: 59vh;
+    height: 55vh;
   }
   .hero-svg-m {
     position: absolute;
@@ -384,6 +392,7 @@ nav {
   color: #fff;
   cursor: pointer;
 }
+
 #about .container-c {
   display: flex;
   flex-direction: row;
@@ -402,6 +411,9 @@ nav {
   margin: 0;
 }
 @media screen and (max-width: 768px) {
+  #about {
+    padding-top: 6rem;
+  }
   #about .container-c {
     flex-direction: column;
   }
@@ -621,6 +633,7 @@ nav {
 #courses,
 #program-info,
 #environment,
+#Reviews,
 #admission-form {
   /* min-height: 90vh; */
   position: relative;
@@ -630,7 +643,13 @@ nav {
   flex-direction: column;
   justify-content: space-around;
 }
-
+#about {
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+}
+#environment {
+  padding-top: 10rem;
+}
 footer {
   width: 100%;
   position: relative;
@@ -713,6 +732,7 @@ footer {
   #about,
   #why,
   #environment,
+  #Reviews,
   #admission-form {
     padding: 3rem 1rem 1rem 1rem;
   }
@@ -896,8 +916,7 @@ img {
 #Founders {
   background: white;
   padding: 4rem;
-  margin: 10rem;
-  margin-top: 4rem;
+  margin: 4rem 10rem;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
