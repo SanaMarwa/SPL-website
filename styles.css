@@ -477,10 +477,10 @@ nav {
 }
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
   grid-gap: 2rem;
-  justify-items: center;
-  padding: 6rem;
+  /* justify-items: center; */
+  padding-top: 6rem;
 }
 .box {
   position: relative;
