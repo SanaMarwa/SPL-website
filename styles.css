@@ -479,7 +479,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
   grid-gap: 2rem;
-  /* justify-items: center; */
+  row-gap: 9rem;
+  justify-items: center;
   padding-top: 6rem;
 }
 .box {
@@ -581,10 +582,10 @@ nav {
   /* background-color: pink; */
   /* height: 70vh; */
   /* width: 90vw; */
-  margin: 0rem 6rem;
+  margin: 0rem 6vw;
   /* grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); */
   /* border: 3px solid red; */
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(2, auto); */
   gap: 1vw;
   padding-top: 1.5rem;
@@ -617,6 +618,7 @@ nav {
     grid-template-columns: 1fr 1fr;
     margin: 0;
     padding: 0;
+    margin-top: 1rem;
   }
   .ft {
     padding: 0.5rem;
@@ -637,7 +639,7 @@ nav {
 #admission-form {
   /* min-height: 90vh; */
   position: relative;
-  padding: 3rem 6rem 3rem 6rem;
+  padding: 3rem 6vw 3rem 6vw;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -722,7 +724,7 @@ footer {
     width: 100%;
     padding: 0;
     gap: 5rem;
-    padding-top: 4rem;
+    padding-top: 4.5rem;
     justify-content: center;
   }
   .box {
@@ -916,7 +918,7 @@ img {
 #Founders {
   background: white;
   padding: 4rem;
-  margin: 4rem 10rem;
+  margin: 4rem 10vw;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
