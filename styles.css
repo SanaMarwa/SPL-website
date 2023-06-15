@@ -387,13 +387,6 @@ nav {
   border-radius: 1rem;
 }
 
-.btn:hover,
-.altbtn:hover {
-  background: #1f2937;
-  color: #fff;
-  cursor: pointer;
-}
-
 #about .container-c {
   display: flex;
   flex-direction: row;
@@ -444,6 +437,7 @@ nav {
   border: 6px solid;
   padding-top: 6rem;
   height: 100%;
+  justify-content: space-between;
 }
 .whytextbox h3 {
   text-shadow: 1px 1px 6px rgb(0 0 0 / 15%);
@@ -562,6 +556,17 @@ nav {
   color: var(--navyblue);
   margin: 0.5rem;
   transition: background-color 0.3s ease;
+}
+.whytextbox .altbtn {
+  width: -webkit-fill-available;
+  background: linear-gradient(white, var(--lightpurple)) padding-box,
+    linear-gradient(to bottom left, var(--navyblue), var(--purple)) border-box;
+}
+.btn:hover,
+.altbtn:hover {
+  background: #1f2937;
+  color: #fff;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .imgbox {
