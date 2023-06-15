@@ -556,8 +556,6 @@ nav {
   color: var(--navyblue);
   margin: 0.5rem;
   transition: background-color 0.3s ease;
-}
-.whytextbox .altbtn {
   width: -webkit-fill-available;
   background: linear-gradient(white, var(--lightpurple)) padding-box,
     linear-gradient(to bottom left, var(--navyblue), var(--purple)) border-box;
