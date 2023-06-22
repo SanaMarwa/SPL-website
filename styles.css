@@ -123,8 +123,8 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 30%;
-  max-width: 45%;
+  max-width: 50%;
+  gap: 5vw;
 }
 .nav-links li {
   display: block;
