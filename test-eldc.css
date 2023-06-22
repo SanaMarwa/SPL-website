@@ -31,12 +31,21 @@
   font-size: 1.5rem;
 }
 @media screen and (max-width: 768px) {
+  #Eldc {
+    margin: 2rem;
+  }
+
   #Eldc h1 {
     padding: 1rem;
     font-size: 2.25rem;
   }
   .level-wrapper h3 {
     font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  #Eldc {
+    margin: 2rem 1rem;
   }
 }
 .level-wrapper h2 {
