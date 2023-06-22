@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 768px) {
   #Eldc {
-    margin: 2rem 5vw;
+    margin: 2rem;
   }
 
   #Eldc h1 {
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 426px) {
   #Eldc {
-    margin: 2rem 1vw;
+    margin: 2rem 1rem;
   }
 }
 .level-wrapper h2 {
@@ -105,7 +105,7 @@
   padding: 2rem 0 1rem;
 }
 .level-wrapper {
-  padding: 1rem;
+  padding: 1rem 0;
   /* background-color: blueviolet; */
 }
 
