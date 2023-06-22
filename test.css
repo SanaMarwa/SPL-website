@@ -1,0 +1,42 @@
+#Visit-us {
+  padding-bottom: 8rem;
+}
+.vwrap {
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(var(--purple), var(--navyblue));
+  align-self: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.v-content {
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 0.25rem;
+  color: #b0b0b3;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vwrap h2 {
+  background: transparent;
+  font-weight: 800;
+  color: white;
+  text-underline-offset: 8px;
+  text-decoration: 1.5px underline;
+}
+.v-content h3 {
+  color: var(--lightblue);
+}
+.v-content p {
+  /* color: #1f2937; */
+  padding: 0.5rem 0;
+}
+.v-content h4 {
+  color: #b0b0b3;
+  font-size: 1rem;
+  font-weight: 500;
+}
