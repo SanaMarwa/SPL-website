@@ -1023,9 +1023,12 @@ img {
   flex-direction: column;
   gap: 1rem;
 }
+#Envi-info .main-container {
+  padding-top: 2rem;
+}
 #Envi-info {
-  margin-left: 15vw;
-  margin-right: 15vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 #Envi-info img {
   height: 100px;
